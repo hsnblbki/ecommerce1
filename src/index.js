@@ -7,4 +7,8 @@ import '@fortawesome/fontawesome-free/js/all.min.js';
 
 $(function(){
     $('#btn-shopping-cart').tooltip({ boundary: 'window' });
+
+    $(".add-to-cart-btn").on('click',function(){
+        alert("أضف المنتج الى عربة الشراء");
+    });
 });
