@@ -768,6 +768,32 @@ input[type=email]{
 }
 
 
+
+/****************payment page*************************/
+
+.custom-input-details{
+    border-width:2px;
+    border-radius:3px;
+    height:46px !important;
+    padding:0 16px;
+    font-size:18px;
+    width:97%;
+}
+
+.custom-input-details:focus{
+    border-color:#b86b07;
+    box-shadow: 0 0 2px 0 #b86b07;
+}
+
+#credit-card-info{
+    margin-right:3%;
+}
+
+input[type=number]{
+    direction: rtl;
+    text-align: right;
+}
+
 /****************Media Query*****************/
 @media(max-width:1199px){
     .custom-navbar .navbar-nav li a.nav-link{
