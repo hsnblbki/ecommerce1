@@ -794,6 +794,98 @@ input[type=number]{
     text-align: right;
 }
 
+
+/********************search page**********************/
+
+#form-advanced-search{
+    border:1px solid #ebebeb;
+    display:table;
+    margin-bottom: 20px;
+    height:max-content;
+    padding-bottom: 20px;
+}
+
+#form-advanced-search .custom-panel{
+    border:0;
+    padding:5px;
+}
+
+.custom-panel .card-header{
+    background-color:transparent;
+    padding:7px 10px 13px;
+    margin-bottom: 15px;
+}
+
+.list-group>.list-group-item{
+    border:0;
+    padding:0 10px 14px 0;
+}
+
+.list-group>.list-group-item:last-child{
+    padding-bottom:0;
+}
+
+#form-advanced-search label{
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.ui-slider{
+    margin:25px 0 15px;
+    height:2px !important;
+}
+
+.ui-slider-handle{
+    border-radius:50% !important;
+    height:12px !important;
+    width:12px !important;
+    background-color: #f8ad47 !important;
+    border:none !important;
+    top:-6px !important;
+}
+
+.ui-slider .ui-slider-range{
+    border:1px solid #f8ad47 !important;
+    top:-1px !important;
+}
+
+#search-results .custom-thumbnail{
+    margin-right:-8px;
+    margin-left:-8px;
+}
+
+.custom-pagination{
+    margin:25px 0;
+}
+
+.custom-pagination li a{
+    border:1px solid #ebebeb;
+    height:32px;
+    width:32px;
+    line-height:32px;
+    text-align:center;
+    margin-left:3px;
+    margin-right:3px;
+    color:#c2c2c2;
+    display: inline-block;
+    transition: all .3s ease;
+}
+
+.custom-pagination li.active a{
+    background-color: #f8ad47;
+    color:#fff;
+    border-color:#f8ad47;
+}
+
+.custom-pagination li a:hover,
+.custom-pagination li a:focus,
+.custom-pagination li a:hover{
+    color:#ab7731;
+    border-color:#ab7731;
+}
+
+
+
 /****************Media Query*****************/
 @media(max-width:1199px){
     .custom-navbar .navbar-nav li a.nav-link{
@@ -896,6 +988,13 @@ input[type=number]{
         line-height:40px;
         font-size:20px;
         margin:10px;
+    }
+
+    /****search page******/
+    .ui-slider-handle{
+        height: 20px !important;
+        width:20px !important;
+        top:-10px !important;
     }
 }
 
