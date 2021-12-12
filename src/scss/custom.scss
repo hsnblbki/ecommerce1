@@ -1,5 +1,5 @@
-$mycolor:#000;
+$theme-colors: (
+    'primary':#f8ad47,
+);
 
-body{
-    background-color: $mycolor;
-}
+@import '../../node_modules/@laylazi/bootstrap-rtl-scss/scss/bootstrap-rtl';
